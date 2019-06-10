@@ -48,16 +48,16 @@ readln (valSangue);
         end
     else
     if (valSangue = 2) then
-    begin
-        writeln ('O animal eh um 1 (mamifero) ou um 2 (passaro?)');
-        readln (valQuente);
-        	if (valQuente = 1) then
-        	    writeln ('Ao que tudo indica o animal informado eh um URSO')			 
-        	else 
-        	if (valQuente = 2) then
-        		writeln ('Ao que tudo indica o animal informado eh um AVESTRUZ')
-    end
+      begin
+          writeln ('O animal eh um 1 (mamifero) ou um 2 (passaro?)');
+          readln (valQuente);
+            if (valQuente = 1) then
+                writeln ('Ao que tudo indica o animal informado eh um URSO')			 
+            else 
+            if (valQuente = 2) then
+              writeln ('Ao que tudo indica o animal informado eh um AVESTRUZ')
+      end
     else
     if (valSangue <1) or (valSangue >2) then
-    writeln ('O numero digitado eh invalido, programa encerrado.');
+      writeln ('O numero digitado eh invalido, programa encerrado.');
 end.
