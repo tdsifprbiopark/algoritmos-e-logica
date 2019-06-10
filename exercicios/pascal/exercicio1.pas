@@ -5,7 +5,6 @@ com base na topologia da árvore de decisão abaixo, para que o computador faça
 correta. Exemplo: O computador pergunta se o animal possui sangue quente, se o usuário responder
 afirmativamente, então a próxima pergunta é se o animal é mamífero, se a resposta for negativa,
 então trata-se de uma avestruz.
-
                                         Vertebrados
                                              |
                      ----------------------------------------------------
@@ -48,6 +47,7 @@ readln (valSangue);
                 writeln ('Ao que tudo indica o animal informado eh um SAPO')
         end
     else
+    if (valSangue = 2) then
     begin
         writeln ('O animal eh um 1 (mamifero) ou um 2 (passaro?)');
         readln (valQuente);
@@ -57,4 +57,7 @@ readln (valSangue);
         	if (valQuente = 2) then
         		writeln ('Ao que tudo indica o animal informado eh um AVESTRUZ')
     end
+    else
+    if (valSangue <1) or (valSangue >2) then
+    writeln ('O numero digitado eh invalido, programa encerrado.');
 end.
