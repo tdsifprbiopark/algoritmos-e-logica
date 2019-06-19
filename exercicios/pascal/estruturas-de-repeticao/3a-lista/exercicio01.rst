@@ -15,6 +15,21 @@ E qual seria o valor de cada uma das variáveis?**
 
 ________________________________
 
+R: While 1 < 5
+
+1 = 1 + 1
+
+2 = 2 + 5
+
+a1 a2 a3 a4 a5
+
+b2 b7 b12 b17 b22
+
+c5 c5 c5 c5 c5
+
+
+5, 22, 5
+
 .. code-block:: console
 
   d ← 4;
