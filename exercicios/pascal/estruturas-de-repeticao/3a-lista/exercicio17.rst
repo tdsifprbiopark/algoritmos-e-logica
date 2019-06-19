@@ -29,3 +29,65 @@ c) Modifique novamente o programa, para que o valor das parcelas seja
 impresso junto com o vencimento (dia, mês e ano). Para isso, o usuário
 deve fornecer no início do programa qual é o dia programado para o
 vencimento.
+
+**Exemplo prático:** imagine que o valor da compra fosse de **R$ 100.00** divididos
+em **10 parcelas** mensais com juros de **1%**. Nesse caso, o valor de cada prestação
+seria calculado conforme abaixo:
+
+**Na primeira prestação:**
+
+1. O valor da amortização é igual ao valor do saldo dividido pelo
+número de prestações restantes. No caso da primeira prestação,
+naturalmente existem 10 prestações a pagar e, então, o valor da
+amortização será
+
+**VA = VS/10 = R$ 100.00/10 = R$ 10.00**
+
+____________
+
+2. O valor dos juros sobre o principal reajustando o valor do principal
+em 1%. Assim, os juros totalizam
+
+**VJ = VS x 0.01 = R$ 100.00 x 0.01 = R$ 1.00**
+
+e, portanto, o saldo será reajustado para
+
+**VS = VS + VJ = R$ 100.00 + R$ 1.00 = R$ 101.00**
+
+____________
+
+3. O valor da prestação será
+
+**VP = VA + VJ = R$ 10.00 + R$ 1.00 = R$ 11.00**
+
+que, após paga, ajustará o saldo para
+
+**VS = VS – VP = R$ 101.00 – R$ 11.00 = R$ 90.00**
+
+____________
+
+Na segunda prestação:
+
+1. Após a primeira prestação paga, restam 9 prestações. Portanto, o
+valor da amortização será
+
+**VA = VS/9 = R$ 90.00/9 = R$ 10.00**
+
+____________
+
+2. Os juros totalizam
+
+**VJ = R$ 90.00 x 0.01 = R$ 0.90**
+que, adicionados ao valor do saldo, resultará em
+
+**VS = R$ 90.00 + R$ 0.90 = R$ 90.90**
+
+____________
+
+3. O valor da prestação será
+
+**VP = VA + VJ = R$ 10.00 + R$ 0.90 = R$ 10.90**
+
+que, após paga, ajustará o saldo para
+
+**VS = VS – VP = R$ 90.90 – R$ 10.90 = R$ 80.00.**
