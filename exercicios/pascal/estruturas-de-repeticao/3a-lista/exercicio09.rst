@@ -1,4 +1,5 @@
 **Aplicativos para a Loja de Móveis Conforto S.A.:**
+
 a) Muitas vezes, a Loja Conforto vende seus produtos no crediário para seus
 clientes. Escreva um programa para simular uma compra parcelada, que
 funcione da seguinte forma: o computador lê o nome do cliente, um código
